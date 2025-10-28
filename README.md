@@ -1,6 +1,6 @@
 # 🧠 Projeto EBAC – Detecção de Fraudes Bancárias
 
-🎥 [Apresentação do Projeto]([https://link-da-apresentacao.com](https://docs.google.com/presentation/d/1EP6gpsHYqn-qv4hvykJa40piyijW5tHB1cjKuOeChag/edit?usp=sharing))
+🎥 [Apresentação do Projeto]((https://docs.google.com/presentation/d/1EP6gpsHYqn-qv4hvykJa40piyijW5tHB1cjKuOeChag/edit?usp=sharing)
 
 Este projeto tem como objetivo desenvolver e otimizar um **modelo preditivo para detecção de fraudes financeiras**, aplicando técnicas de balanceamento e otimização de hiperparâmetros para maximizar o desempenho do modelo e reduzir o impacto de falsos negativos — o erro mais custoso em um contexto bancário.  
 
@@ -68,5 +68,6 @@ O modelo final escolhido apresentou excelente equilíbrio entre precisão e reca
 📅 **Data:** Outubro / 2025  
 👨‍💻 **Autor:** Leonardo Prado  
 📚 **Curso:** Ciência de Dados – EBAC  
+
 
 
