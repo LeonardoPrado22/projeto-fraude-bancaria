@@ -47,28 +47,28 @@ Após o entendimento da base, iniciou-se o processo de modelagem com foco em **c
    - **Random Forest**
    - **Logistic Regression**
    - **XGBoost**
-4. **Otimização de hiperparâmetros** com `RandomizedSearchCV` para maximizar o **F1-Score**.  
-5. **Avaliação do desempenho** com métricas como:
+4. **Otimização de hiperparâmetros** com `RandomizedSearchCV`.  
+5. **Ajuste do threshold de decisão** para maximizar o **F1-Score**, priorizando a detecção de fraudes (redução de falsos negativos).  
+6. **Avaliação do desempenho** com métricas como:
    - **F1-Score**
    - **Precision**
    - **Recall**
    - **Matriz de Confusão**
 
-O modelo final escolhido apresentou excelente equilíbrio entre precisão e recall, priorizando a detecção de fraudes (redução de falsos negativos).
+O modelo **XGBoost**, após ajuste do **threshold de classificação**, apresentou o **melhor desempenho geral**, equilibrando alta precisão e recall na identificação de transações fraudulentas.
 
 ---
 
 ## 🧩 Conclusão
 
-1. O modelo conseguiu atingir **alto desempenho na detecção de fraudes**, mesmo com uma base altamente desbalanceada.  
+1. O **XGBoost otimizado com threshold** foi o modelo que apresentou o melhor resultado, alcançando excelente equilíbrio entre precisão e recall.  
 2. O **uso de uma base já reduzida por PCA**, aliado ao **SMOTE**, contribuiu para aprimorar a performance e reduzir o tempo de treinamento.  
-3. O **Random Forest otimizado** se mostrou o modelo mais eficiente, com melhor trade-off entre precisão e recall.  
-4. Em um contexto real, essa abordagem pode **minimizar perdas financeiras significativas**, identificando com maior eficiência transações suspeitas.  
+3. A abordagem adotada se mostrou eficaz para **minimizar falsos negativos**, o erro mais crítico em um sistema antifraude.  
+4. Em um contexto real, esse tipo de modelo pode **reduzir perdas financeiras** e **aumentar a eficiência de monitoramento bancário**.  
 
 📅 **Data:** Outubro / 2025  
 👨‍💻 **Autor:** Leonardo Prado  
 📚 **Curso:** Ciência de Dados – EBAC  
-
 
 
 
